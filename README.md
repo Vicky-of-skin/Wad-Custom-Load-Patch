@@ -5,8 +5,9 @@ Used to load the League of Legends homebrew skin file
 wad文件名称可以随意，wad文件中只包含我们修改过的皮肤文件这大大节省了文件占用内存的烦恼
 加载原理优先从我们自定义皮肤文件夹中插队加载我们的不完整的皮肤wad碎片，然后在走官方正常流程达到这样一个拼接效果
 因为游戏在优先加载我们的wad中的文件后，在去走官方正常流程去加载原始目录wad中的文件时，不会重复加载已经被优先加载的wad中存在的文件
-送给喜欢玩自制皮肤的每一位朋友，让更多的人去开源去研究他
-下面是源代码的展示
+送给喜欢玩自制皮肤的每一位朋友，让更多的人去开源去研究他下面是源代码的展示
+
+
 #include <windows.h>
 #include <process.h>  // 添加此头文件以支持 _beginthreadex
 #include <iostream>
