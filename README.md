@@ -1,6 +1,6 @@
 # Wad-Custom-Load-Patch
 Used to load the League of Legends homebrew skin file
-英雄联盟WAD自定义挂载补丁
+英雄联盟WAD自定义挂载补丁，用于加载英雄联盟的WAD自制皮肤文件
 该补丁使用自定义的方式加载不需要完整的WAD文件覆盖达到即插即用轻灵小巧的方式
 wad文件名称可以随意，wad文件中只包含我们修改过的皮肤文件这大大节省了文件占用内存的烦恼
 加载原理优先从我们自定义皮肤文件夹中插队加载我们的不完整的皮肤wad碎片，然后在走官方正常流程达到这样一个拼接效果
